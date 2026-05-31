@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:06111F,55:0B5CAD,100:00AEEF&text=Bhanu%20Kalla&fontColor=FFFFFF&fontSize=48&fontAlignY=34&desc=Security%20Engineer%20%7C%20Blue%20Team%20%7C%20Detection%20Engineering%20%7C%20Cloud%20Defense&descSize=16&descAlignY=56&animation=fadeIn" alt="Bhanu Kalla security profile banner" />
+  <img src="./assets/soc-command-center.svg" alt="Animated SOC command center banner for Bhanu Kalla" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=700&color=00AEEF&center=true&vCenter=true&width=920&lines=Security+Engineer+building+blue-team+detection+systems.;SOC+signal+engineering+across+identity%2C+cloud%2C+endpoint%2C+email.;Telemetry+-%3E+Detection+-%3E+Evidence+-%3E+Response." alt="Animated security engineering typing line" />
 </p>
 
 <p align="center">
@@ -7,108 +11,117 @@
     <img src="https://img.shields.io/badge/LinkedIn-kallabhanu-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" />
   </a>
   <a href="https://github.com/Kalla-Bhanu?tab=repositories">
-    <img src="https://img.shields.io/badge/GitHub-Projects-0B1220?style=for-the-badge&logo=github&logoColor=white" alt="GitHub projects" />
+    <img src="https://img.shields.io/badge/Projects-Blue%20Team%20Labs-0B1220?style=for-the-badge&logo=github&logoColor=white" alt="GitHub projects" />
   </a>
-  <img src="https://img.shields.io/badge/Blue%20Team-Detection%20Engineering-00AEEF?style=for-the-badge" alt="Blue team detection engineering" />
+  <img src="https://img.shields.io/badge/SOC-Detection%20Engineering-00AEEF?style=for-the-badge" alt="SOC detection engineering" />
   <img src="https://img.shields.io/badge/Cloud-AWS%20Security-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS security" />
 </p>
 
 <p align="center">
-  <a href="#security-signal">Security Signal</a> |
-  <a href="#featured-blue-team-labs">Labs</a> |
-  <a href="#defensive-workflow">Workflow</a> |
-  <a href="#soc-telemetry">SOC Telemetry</a> |
-  <a href="#education">Education</a>
+  <a href="#mission-control">Mission Control</a> |
+  <a href="#start-here">Start Here</a> |
+  <a href="#defense-labs">Defense Labs</a> |
+  <a href="#how-i-defend">How I Defend</a> |
+  <a href="#security-arsenal">Security Arsenal</a>
 </p>
 
 ---
 
-## Security Signal
+## Mission Control
 
-I am a Security Engineer focused on blue-team detection engineering, telemetry automation, incident response, cloud defense, and security analytics. I like building systems that help analysts move from noisy alerts to clear evidence, stronger detections, and repeatable response paths.
+I build blue-team systems that convert noisy security telemetry into clear signals, analyst-ready evidence, and repeatable response paths. My work sits where detection engineering, incident response, cloud security, identity, endpoint, email, DLP, and vulnerability context meet.
+
+<table>
+  <tr>
+    <td align="center"><strong>25-35</strong><br />detections authored or improved</td>
+    <td align="center"><strong>10+</strong><br />telemetry source families</td>
+    <td align="center"><strong>30-45</strong><br />investigations scoped or supported</td>
+    <td align="center"><strong>80-120</strong><br />SIEM alerts/day handled in high-volume workflows</td>
+  </tr>
+</table>
 
 ```txt
 Primary lane     SOC detection engineering, SIEM tuning, cloud defense, alert validation
 Operating style  Risk scenario -> telemetry check -> detection logic -> enrichment -> runbook
 Core tooling     Splunk SPL, Datadog monitor-as-code, AWS, Python, CrowdStrike, Defender, Prisma/Cortex
-Portfolio goal   Build practical security labs that prove how detections work, fail, and improve
+Security goal    Make the analyst's next decision faster, clearer, and better supported by evidence
 ```
-
----
-
-## Why This Profile Matters
-
-| Proof Point | Signal |
-| --- | --- |
-| Detection engineering | Authored or improved 25-35 detections across identity, email, endpoint, cloud, DLP, and vulnerability-risk domains. |
-| Telemetry coverage | Worked across 10+ source families including Splunk, Entra ID, Duo, GlobalProtect, Defender O365/MDE, CrowdStrike, Cortex/Prisma Cloud, Purview DLP, and Qualys. |
-| Incident response | Supported investigations across account compromise, MFA abuse, phishing, endpoint behavior, sensitive-data exposure, and cloud exposure. |
-| Alert operations | Operated in high-volume SIEM workflows, triaging alerts under critical SLA expectations and turning recurring patterns into durable logic. |
-| Cloud security | Built CNAPP/CSPM correlation logic joining misconfigurations, vulnerabilities, identity risk, and runtime signals into remediation context. |
 
 ---
 
 ## Start Here
 
-| If you are reviewing for... | Open this first |
-| --- | --- |
-| Detection engineering | [Datadog Detection Engineering Lab](https://github.com/Kalla-Bhanu/datadog-detection-engineering-lab) |
-| Cloud/SOC security | [CloudSec SOC Detection Lab](https://github.com/Kalla-Bhanu/CloudSec-SOC-Detection-Lab) |
-| Security analytics | [security-ml-threat-detection](https://github.com/Kalla-Bhanu/security-ml-threat-detection) |
-| Incident workflows | [soc-monitoring-credit-approval](https://github.com/Kalla-Bhanu/soc-monitoring-credit-approval) |
-| Full background | [LinkedIn](https://www.linkedin.com/in/kallabhanu) |
-
----
-
-## Featured Blue-Team Labs
-
 <table>
   <tr>
     <td width="50%">
-      <a href="https://github.com/Kalla-Bhanu/datadog-detection-engineering-lab">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kalla-Bhanu&repo=datadog-detection-engineering-lab&theme=github_dark&hide_border=true&title_color=00AEEF&icon_color=00AEEF" alt="Datadog Detection Engineering Lab" />
-      </a>
+      <h3>Detection Engineering</h3>
+      <p>Review monitor-as-code detections, validation cases, negative controls, CI checks, ATT&CK mapping, and runbooks.</p>
+      <a href="https://github.com/Kalla-Bhanu/datadog-detection-engineering-lab"><strong>Open Datadog Detection Engineering Lab</strong></a>
     </td>
     <td width="50%">
-      <a href="https://github.com/Kalla-Bhanu/CloudSec-SOC-Detection-Lab">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kalla-Bhanu&repo=CloudSec-SOC-Detection-Lab&theme=github_dark&hide_border=true&title_color=00AEEF&icon_color=00AEEF" alt="CloudSec SOC Detection Lab" />
-      </a>
+      <h3>Cloud SOC</h3>
+      <p>Review AWS-first detections using CloudTrail, IAM, STS, S3, EKS, KMS, Lambda replay, and evidence templates.</p>
+      <a href="https://github.com/Kalla-Bhanu/CloudSec-SOC-Detection-Lab"><strong>Open CloudSec SOC Detection Lab</strong></a>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <a href="https://github.com/Kalla-Bhanu/security-ml-threat-detection">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kalla-Bhanu&repo=security-ml-threat-detection&theme=github_dark&hide_border=true&title_color=00AEEF&icon_color=00AEEF" alt="Security ML Threat Detection" />
-      </a>
+      <h3>Security Analytics</h3>
+      <p>Review ML-driven anomaly detection and feature engineering for suspicious and high-risk behavior.</p>
+      <a href="https://github.com/Kalla-Bhanu/security-ml-threat-detection"><strong>Open Security ML Threat Detection</strong></a>
     </td>
     <td width="50%">
-      <a href="https://github.com/Kalla-Bhanu/soc-monitoring-credit-approval">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kalla-Bhanu&repo=soc-monitoring-credit-approval&theme=github_dark&hide_border=true&title_color=00AEEF&icon_color=00AEEF" alt="SOC Monitoring Credit Approval" />
-      </a>
+      <h3>Incident Workflows</h3>
+      <p>Review SOC-style monitoring for financial and PII workflows, including evidence-driven investigation paths.</p>
+      <a href="https://github.com/Kalla-Bhanu/soc-monitoring-credit-approval"><strong>Open SOC Monitoring Credit Approval</strong></a>
     </td>
   </tr>
 </table>
 
-| Lab | What to review first |
+---
+
+## Defense Labs
+
+| Lab | What it proves |
 | --- | --- |
-| [Datadog Detection Engineering Lab](https://github.com/Kalla-Bhanu/datadog-detection-engineering-lab) | Monitor-as-code detections, validation cases, negative-control tests, CI verification, ATT&CK mapping, tuning history, and triage runbooks. |
-| [CloudSec SOC Detection Lab](https://github.com/Kalla-Bhanu/CloudSec-SOC-Detection-Lab) | AWS-first detection scenarios using CloudTrail/IAM/STS/S3/EKS/KMS context, Lambda synthetic replay, evidence templates, and demo runbooks. |
-| [security-ml-threat-detection](https://github.com/Kalla-Bhanu/security-ml-threat-detection) | Security analytics and ML-based anomaly detection for suspicious and high-risk behavior. |
-| [soc-monitoring-credit-approval](https://github.com/Kalla-Bhanu/soc-monitoring-credit-approval) | SOC-style monitoring and incident investigation for sensitive financial and PII workflows. |
+| [Datadog Detection Engineering Lab](https://github.com/Kalla-Bhanu/datadog-detection-engineering-lab) | Detection-as-code discipline: validation harnesses, negative controls, CI verification, tuning history, ATT&CK mapping, and triage runbooks. |
+| [CloudSec SOC Detection Lab](https://github.com/Kalla-Bhanu/CloudSec-SOC-Detection-Lab) | Cloud detection engineering: AWS telemetry replay, identity/cloud context, evidence templates, and analyst-ready runbooks. |
+| [security-ml-threat-detection](https://github.com/Kalla-Bhanu/security-ml-threat-detection) | Security analytics: anomaly detection, feature engineering, and high-risk behavior modeling. |
+| [soc-monitoring-credit-approval](https://github.com/Kalla-Bhanu/soc-monitoring-credit-approval) | Incident investigation: monitoring, sensitive-data risk, and SOC-style evidence collection for regulated workflows. |
 
 ---
 
-## Experience Snapshot
+## How I Defend
 
-| Role | What I worked on |
-| --- | --- |
-| Security Engineer, American Express | Detection lifecycle work across identity, email, endpoint, cloud, DLP, and vulnerability-risk domains, including tuning, enrichment, telemetry checks, ATT&CK mapping, and response documentation. |
-| Security Analyst, Northeastern University | Endpoint, identity, phishing, access review, firewall, SIEM, and ServiceNow investigation workflows with NIST-aligned reporting. |
-| Security Analyst Intern, FILESIE | SIEM alert analysis, ATT&CK/OWASP-aligned tuning, attack-path modeling, control validation, Python dashboards, and secrets hygiene. |
+```mermaid
+flowchart LR
+    A["Risk story"] --> B["Telemetry validation"]
+    B --> C["Detection logic"]
+    C --> D["Identity + asset + cloud context"]
+    D --> E["Tuning and false-positive control"]
+    E --> F["Runbook + evidence package"]
+    F --> G["Analyst feedback"]
+    G --> C
+```
+
+<table>
+  <tr>
+    <td><strong>1. Model the risk</strong><br />What behavior matters, which asset is exposed, and what outcome would hurt?</td>
+    <td><strong>2. Validate telemetry</strong><br />Confirm the source, schema, freshness, identity joins, and missing context before trusting alerts.</td>
+  </tr>
+  <tr>
+    <td><strong>3. Build the detection</strong><br />Create logic that is explainable, mapped to behavior, and testable with positive and negative cases.</td>
+    <td><strong>4. Package the response</strong><br />Write the evidence path, triage questions, escalation notes, and tuning history so analysts can move fast.</td>
+  </tr>
+</table>
 
 ---
 
-## Detection Engineering Stack
+## Security Arsenal
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,python,bash,powershell,git,github,githubactions,linux,windows,vscode" alt="Security engineering tools" />
+</p>
 
 | Detection & SIEM | Cloud & CNAPP | Identity, Endpoint & Email | Automation & Response |
 | --- | --- | --- | --- |
@@ -120,18 +133,13 @@ Portfolio goal   Build practical security labs that prove how detections work, f
 
 ---
 
-## Defensive Workflow
+## Field Experience
 
-```mermaid
-flowchart LR
-    A["Risk scenario"] --> B["Telemetry validation"]
-    B --> C["Detection logic"]
-    C --> D["Context enrichment"]
-    D --> E["Tuning and suppression"]
-    E --> F["Runbook and evidence"]
-    F --> G["Analyst feedback"]
-    G --> C
-```
+| Role | What I worked on |
+| --- | --- |
+| Security Engineer, American Express | Detection lifecycle work across identity, email, endpoint, cloud, DLP, and vulnerability-risk domains, including tuning, enrichment, telemetry checks, ATT&CK mapping, and response documentation. |
+| Security Analyst, Northeastern University | Endpoint, identity, phishing, access review, firewall, SIEM, and ServiceNow investigation workflows with NIST-aligned reporting. |
+| Security Analyst Intern, FILESIE | SIEM alert analysis, ATT&CK/OWASP-aligned tuning, attack-path modeling, control validation, Python dashboards, and secrets hygiene. |
 
 ---
 
@@ -146,33 +154,15 @@ Selected focus areas: operating system security, software vulnerabilities, cloud
 
 ---
 
-## SOC Telemetry
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Kalla-Bhanu&show_icons=true&theme=github_dark&hide_border=true&title_color=00AEEF&icon_color=00AEEF" alt="Bhanu Kalla GitHub stats" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=Kalla-Bhanu&theme=github-dark-blue&hide_border=true&ring=00AEEF&fire=00AEEF&currStreakLabel=00AEEF" alt="Bhanu Kalla GitHub streak stats" />
-</p>
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kalla-Bhanu&layout=compact&theme=github_dark&hide_border=true&title_color=00AEEF" alt="Bhanu Kalla top languages" />
-  <img height="165" src="https://github-profile-trophy.vercel.app/?username=Kalla-Bhanu&theme=algolia&no-frame=true&no-bg=true&margin-w=8&column=4" alt="Bhanu Kalla GitHub trophies" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kalla-Bhanu&theme=react-dark&hide_border=true&bg_color=06111F&color=E6EDF3&line=00AEEF&point=FF9900&area=true" alt="Bhanu Kalla GitHub activity graph" />
-</p>
-
----
-
 ## Building Next
 
-- More realistic synthetic telemetry for cloud and identity attack paths.
-- Stronger validation harnesses for detection logic, negative controls, and tuning history.
+- Richer synthetic telemetry for cloud and identity attack paths.
+- Better validation harnesses for detection logic, negative controls, and tuning history.
 - Cleaner incident narratives that connect alert evidence to analyst decisions.
-- Portfolio labs that are easy for recruiters, hiring managers, and security engineers to evaluate quickly.
+- Portfolio labs that security engineers and recruiters can evaluate quickly.
 
 ---
 
 <p align="center">
-  <strong>Blue-team security | Detection engineering | Cloud defense | Security analytics</strong>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=90&section=footer&color=0:00AEEF,50:0B5CAD,100:06111F" alt="Blue security footer wave" />
 </p>

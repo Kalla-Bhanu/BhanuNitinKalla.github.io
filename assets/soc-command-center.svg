@@ -1,0 +1,107 @@
+<svg width="1000" height="360" viewBox="0 0 1000 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Bhanu Kalla SOC Command Center</title>
+  <desc id="desc">Animated blue-team security command center showing telemetry, detection, investigation, and response.</desc>
+  <style>
+    .bg { fill: #06111f; }
+    .grid { stroke: #113353; stroke-width: 1; opacity: .55; }
+    .panel { fill: #0b1627; stroke: #00aeef; stroke-width: 1.5; }
+    .panel2 { fill: #071a2c; stroke: #1f6feb; stroke-width: 1.2; }
+    .text { fill: #e6edf3; font-family: Consolas, Monaco, monospace; }
+    .muted { fill: #8ea4b8; font-family: Consolas, Monaco, monospace; }
+    .cyan { fill: #00aeef; }
+    .orange { fill: #ff9900; }
+    .line { stroke: #00aeef; stroke-width: 2; stroke-linecap: round; }
+    .thin { stroke: #1f6feb; stroke-width: 1.5; stroke-linecap: round; }
+    .glow { filter: url(#glow); }
+    .pulse { animation: pulse 1.8s infinite ease-in-out; transform-origin: center; }
+    .pulse2 { animation: pulse 2.4s infinite ease-in-out; transform-origin: center; }
+    .blink { animation: blink 1.2s infinite steps(2, end); }
+    .scan { animation: scan 4s infinite linear; }
+    .float { animation: float 3.5s infinite ease-in-out; }
+    .dash { stroke-dasharray: 8 10; animation: dash 2.8s infinite linear; }
+    @keyframes pulse { 0%,100% { opacity: .45; transform: scale(.92); } 50% { opacity: 1; transform: scale(1.08); } }
+    @keyframes blink { 0%,45% { opacity: 1; } 46%,100% { opacity: .25; } }
+    @keyframes scan { 0% { transform: translateY(-90px); opacity: 0; } 12% { opacity: .75; } 90% { opacity: .75; } 100% { transform: translateY(250px); opacity: 0; } }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+    @keyframes dash { to { stroke-dashoffset: -72; } }
+  </style>
+  <defs>
+    <linearGradient id="hero" x1="0" y1="0" x2="1000" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#040814"/>
+      <stop offset=".45" stop-color="#06111f"/>
+      <stop offset="1" stop-color="#092a45"/>
+    </linearGradient>
+    <radialGradient id="radar" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(500 180) rotate(90) scale(190 360)">
+      <stop stop-color="#00aeef" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#00aeef" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect class="bg" width="1000" height="360" rx="26"/>
+  <rect width="1000" height="360" rx="26" fill="url(#hero)"/>
+  <rect width="1000" height="360" rx="26" fill="url(#radar)"/>
+
+  <g opacity=".65">
+    <path class="grid" d="M40 60H960M40 110H960M40 160H960M40 210H960M40 260H960M40 310H960"/>
+    <path class="grid" d="M80 35V325M160 35V325M240 35V325M320 35V325M400 35V325M480 35V325M560 35V325M640 35V325M720 35V325M800 35V325M880 35V325M960 35V325"/>
+  </g>
+
+  <rect class="scan" x="36" y="88" width="928" height="42" fill="#00aeef" opacity=".12"/>
+
+  <text class="text" x="58" y="72" font-size="16" letter-spacing="3">SOC COMMAND CENTER</text>
+  <text class="cyan glow" x="58" y="128" font-size="42" font-family="Consolas, Monaco, monospace" font-weight="700">BHANU KALLA</text>
+  <text class="muted" x="60" y="160" font-size="17">Security Engineer | Blue Team | Detection Engineering | Cloud Defense</text>
+
+  <g class="float">
+    <rect class="panel" x="58" y="200" width="190" height="92" rx="14"/>
+    <text class="muted" x="78" y="230" font-size="13">DETECTIONS</text>
+    <text class="cyan" x="78" y="264" font-size="34" font-weight="700" font-family="Consolas, Monaco, monospace">25-35</text>
+    <circle class="pulse" cx="218" cy="230" r="8" fill="#00aeef"/>
+  </g>
+
+  <g class="float">
+    <rect class="panel" x="280" y="200" width="190" height="92" rx="14"/>
+    <text class="muted" x="300" y="230" font-size="13">SOURCES</text>
+    <text class="cyan" x="300" y="264" font-size="34" font-weight="700" font-family="Consolas, Monaco, monospace">10+</text>
+    <circle class="pulse2" cx="438" cy="230" r="8" fill="#ff9900"/>
+  </g>
+
+  <g class="float">
+    <rect class="panel" x="502" y="200" width="210" height="92" rx="14"/>
+    <text class="muted" x="522" y="230" font-size="13">INVESTIGATIONS</text>
+    <text class="cyan" x="522" y="264" font-size="34" font-weight="700" font-family="Consolas, Monaco, monospace">30-45</text>
+    <circle class="pulse" cx="680" cy="230" r="8" fill="#00aeef"/>
+  </g>
+
+  <g class="float">
+    <rect class="panel" x="744" y="200" width="198" height="92" rx="14"/>
+    <text class="muted" x="764" y="230" font-size="13">ALERT OPS</text>
+    <text class="cyan" x="764" y="264" font-size="34" font-weight="700" font-family="Consolas, Monaco, monospace">80-120</text>
+    <circle class="pulse2" cx="910" cy="230" r="8" fill="#ff9900"/>
+  </g>
+
+  <g>
+    <rect class="panel2" x="650" y="58" width="292" height="100" rx="14"/>
+    <text class="muted" x="670" y="86" font-size="13">DEFENSE LOOP</text>
+    <path class="thin dash" d="M680 126H728L756 100H816L844 126H902" />
+    <circle class="glow" cx="680" cy="126" r="6" fill="#00aeef"/>
+    <circle class="glow" cx="756" cy="100" r="6" fill="#ff9900"/>
+    <circle class="glow" cx="844" cy="126" r="6" fill="#00aeef"/>
+    <text class="text" x="670" y="146" font-size="13">collect -> detect -> investigate -> respond</text>
+  </g>
+
+  <text class="muted" x="60" y="326" font-size="13">TELEMETRY VALIDATION</text>
+  <rect class="glow" x="248" y="316" width="90" height="10" rx="5" fill="#00aeef"/>
+  <text class="muted" x="370" y="326" font-size="13">ATT&CK MAPPING</text>
+  <rect class="glow" x="520" y="316" width="90" height="10" rx="5" fill="#ff9900"/>
+  <text class="muted" x="642" y="326" font-size="13">RUNBOOKS</text>
+  <rect class="glow" x="740" y="316" width="90" height="10" rx="5" fill="#00aeef"/>
+  <text class="text blink" x="850" y="326" font-size="13">READY</text>
+</svg>
