@@ -67,7 +67,7 @@ This profile is built around public-safe artifacts from real labs: detection das
     <td width="50%">
       <h3>Detection Engineering</h3>
       <p>Review monitor-as-code detections, validation cases, negative controls, CI checks, ATT&CK mapping, and runbooks.</p>
-      <a href="https://github.com/Kalla-Bhanu/datadog-detection-engineering-lab"><strong>Open Datadog Detection Engineering Lab</strong></a>
+      <a href="https://github.com/Kalla-Bhanu/Datadog-Detection-Engineering-Lab"><strong>Open Datadog Detection Engineering Lab</strong></a>
     </td>
     <td width="50%">
       <h3>Cloud SOC</h3>
@@ -95,11 +95,12 @@ This profile is built around public-safe artifacts from real labs: detection das
 
 | Lab | What it proves |
 | --- | --- |
-| [Datadog Detection Engineering Lab](https://github.com/Kalla-Bhanu/datadog-detection-engineering-lab) | Detection-as-code discipline: validation harnesses, negative controls, CI verification, tuning history, ATT&CK mapping, and triage runbooks. |
+| [Datadog Detection Engineering Lab](https://github.com/Kalla-Bhanu/Datadog-Detection-Engineering-Lab) | Detection-as-code discipline: validation harnesses, negative controls, CI verification, tuning history, ATT&CK mapping, and triage runbooks. |
 | [CloudSec SOC Detection Lab](https://github.com/Kalla-Bhanu/CloudSec-SOC-Detection-Lab) | Cloud detection engineering: AWS telemetry replay, identity/cloud context, evidence templates, and analyst-ready runbooks. |
 | [SaaS Attack Chain Detection Lab](https://github.com/Kalla-Bhanu/SaaS-Attack-Chain-Detection-Lab) | SaaS threat modeling: Okta, Google Workspace, and MongoDB Atlas attack chains with Sigma-style detections and public-safe evidence. |
 | [security-ml-threat-detection](https://github.com/Kalla-Bhanu/security-ml-threat-detection) | Security analytics: anomaly detection, feature engineering, and high-risk behavior modeling. |
 | [soc-monitoring-credit-approval](https://github.com/Kalla-Bhanu/soc-monitoring-credit-approval) | Incident investigation: monitoring, sensitive-data risk, and SOC-style evidence collection for regulated workflows. |
+| [SMART-ATS](https://github.com/Kalla-Bhanu/SMART-ATS) | Product engineering: AI resume tailoring and ATS scanning with document parsing, workflow automation, and practical UI behavior. |
 
 ---
 
