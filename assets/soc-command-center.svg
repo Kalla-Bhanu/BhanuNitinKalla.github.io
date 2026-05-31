@@ -99,7 +99,7 @@
 
   <text class="muted" x="60" y="326" font-size="13">TELEMETRY VALIDATION</text>
   <rect class="glow" x="248" y="316" width="90" height="10" rx="5" fill="#00aeef"/>
-  <text class="muted" x="370" y="326" font-size="13">ATT&CK MAPPING</text>
+  <text class="muted" x="370" y="326" font-size="13">ATT&amp;CK MAPPING</text>
   <rect class="glow" x="520" y="316" width="90" height="10" rx="5" fill="#ff9900"/>
   <text class="muted" x="642" y="326" font-size="13">RUNBOOKS</text>
   <rect class="glow" x="740" y="316" width="90" height="10" rx="5" fill="#00aeef"/>
