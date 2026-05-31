@@ -13,6 +13,14 @@
   <img src="https://img.shields.io/badge/Cloud-AWS%20Security-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS security" />
 </p>
 
+<p align="center">
+  <a href="#security-signal">Security Signal</a> |
+  <a href="#featured-blue-team-labs">Labs</a> |
+  <a href="#defensive-workflow">Workflow</a> |
+  <a href="#soc-telemetry">SOC Telemetry</a> |
+  <a href="#education">Education</a>
+</p>
+
 ---
 
 ## Security Signal
@@ -37,6 +45,18 @@ Portfolio goal   Build practical security labs that prove how detections work, f
 | Incident response | Supported investigations across account compromise, MFA abuse, phishing, endpoint behavior, sensitive-data exposure, and cloud exposure. |
 | Alert operations | Operated in high-volume SIEM workflows, triaging alerts under critical SLA expectations and turning recurring patterns into durable logic. |
 | Cloud security | Built CNAPP/CSPM correlation logic joining misconfigurations, vulnerabilities, identity risk, and runtime signals into remediation context. |
+
+---
+
+## Start Here
+
+| If you are reviewing for... | Open this first |
+| --- | --- |
+| Detection engineering | [Datadog Detection Engineering Lab](https://github.com/Kalla-Bhanu/datadog-detection-engineering-lab) |
+| Cloud/SOC security | [CloudSec SOC Detection Lab](https://github.com/Kalla-Bhanu/CloudSec-SOC-Detection-Lab) |
+| Security analytics | [security-ml-threat-detection](https://github.com/Kalla-Bhanu/security-ml-threat-detection) |
+| Incident workflows | [soc-monitoring-credit-approval](https://github.com/Kalla-Bhanu/soc-monitoring-credit-approval) |
+| Full background | [LinkedIn](https://www.linkedin.com/in/kallabhanu) |
 
 ---
 
@@ -126,21 +146,30 @@ Selected focus areas: operating system security, software vulnerabilities, cloud
 
 ---
 
+## SOC Telemetry
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Kalla-Bhanu&show_icons=true&theme=github_dark&hide_border=true&title_color=00AEEF&icon_color=00AEEF" alt="Bhanu Kalla GitHub stats" />
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=Kalla-Bhanu&theme=github-dark-blue&hide_border=true&ring=00AEEF&fire=00AEEF&currStreakLabel=00AEEF" alt="Bhanu Kalla GitHub streak stats" />
+</p>
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kalla-Bhanu&layout=compact&theme=github_dark&hide_border=true&title_color=00AEEF" alt="Bhanu Kalla top languages" />
+  <img height="165" src="https://github-profile-trophy.vercel.app/?username=Kalla-Bhanu&theme=algolia&no-frame=true&no-bg=true&margin-w=8&column=4" alt="Bhanu Kalla GitHub trophies" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kalla-Bhanu&theme=react-dark&hide_border=true&bg_color=06111F&color=E6EDF3&line=00AEEF&point=FF9900&area=true" alt="Bhanu Kalla GitHub activity graph" />
+</p>
+
+---
+
 ## Building Next
 
 - More realistic synthetic telemetry for cloud and identity attack paths.
 - Stronger validation harnesses for detection logic, negative controls, and tuning history.
 - Cleaner incident narratives that connect alert evidence to analyst decisions.
 - Portfolio labs that are easy for recruiters, hiring managers, and security engineers to evaluate quickly.
-
----
-
-## GitHub Telemetry
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Kalla-Bhanu&show_icons=true&theme=github_dark&hide_border=true&title_color=00AEEF&icon_color=00AEEF" alt="Bhanu Kalla GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kalla-Bhanu&layout=compact&theme=github_dark&hide_border=true&title_color=00AEEF" alt="Bhanu Kalla top languages" />
-</p>
 
 ---
 
