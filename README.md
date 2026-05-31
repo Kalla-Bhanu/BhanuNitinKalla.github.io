@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Kalla-Bhanu/Kalla-Bhanu/main/assets/soc-command-center.svg" width="1000" alt="Animated SOC command center banner for Bhanu Kalla" />
+  <img src="https://raw.githubusercontent.com/Kalla-Bhanu/Kalla-Bhanu/f6137ae05c17aadf7d0746d0001d20392620eeec/assets/soc-command-center.svg" width="1000" alt="Animated SOC command center banner for Bhanu Kalla" />
 </p>
 
 <p align="center">
