@@ -19,6 +19,7 @@
 
 <p align="center">
   <a href="#mission-control">Mission Control</a> |
+  <a href="#evidence-wall">Evidence Wall</a> |
   <a href="#start-here">Start Here</a> |
   <a href="#defense-labs">Defense Labs</a> |
   <a href="#how-i-defend">How I Defend</a> |
@@ -49,6 +50,16 @@ Security goal    Make the analyst's next decision faster, clearer, and better su
 
 ---
 
+## Evidence Wall
+
+<p align="center">
+  <img src="./assets/blue-team-evidence-wall.png" alt="Blue Team Evidence Wall with dashboard artifacts from Datadog, CloudSec SOC, and SaaS attack-chain labs" />
+</p>
+
+This profile is built around public-safe artifacts from real labs: detection dashboards, monitor inventories, Cloud SIEM signal views, incident timelines, Okta logs, and Atlas activity evidence.
+
+---
+
 ## Start Here
 
 <table>
@@ -66,9 +77,9 @@ Security goal    Make the analyst's next decision faster, clearer, and better su
   </tr>
   <tr>
     <td width="50%">
-      <h3>Security Analytics</h3>
-      <p>Review ML-driven anomaly detection and feature engineering for suspicious and high-risk behavior.</p>
-      <a href="https://github.com/Kalla-Bhanu/security-ml-threat-detection"><strong>Open Security ML Threat Detection</strong></a>
+      <h3>SaaS Attack Chains</h3>
+      <p>Review identity-to-data paths across Okta, Google Workspace, and MongoDB Atlas with Sigma-style detections and evidence artifacts.</p>
+      <a href="https://github.com/Kalla-Bhanu/SaaS-Attack-Chain-Detection-Lab"><strong>Open SaaS Attack Chain Detection Lab</strong></a>
     </td>
     <td width="50%">
       <h3>Incident Workflows</h3>
@@ -86,6 +97,7 @@ Security goal    Make the analyst's next decision faster, clearer, and better su
 | --- | --- |
 | [Datadog Detection Engineering Lab](https://github.com/Kalla-Bhanu/datadog-detection-engineering-lab) | Detection-as-code discipline: validation harnesses, negative controls, CI verification, tuning history, ATT&CK mapping, and triage runbooks. |
 | [CloudSec SOC Detection Lab](https://github.com/Kalla-Bhanu/CloudSec-SOC-Detection-Lab) | Cloud detection engineering: AWS telemetry replay, identity/cloud context, evidence templates, and analyst-ready runbooks. |
+| [SaaS Attack Chain Detection Lab](https://github.com/Kalla-Bhanu/SaaS-Attack-Chain-Detection-Lab) | SaaS threat modeling: Okta, Google Workspace, and MongoDB Atlas attack chains with Sigma-style detections and public-safe evidence. |
 | [security-ml-threat-detection](https://github.com/Kalla-Bhanu/security-ml-threat-detection) | Security analytics: anomaly detection, feature engineering, and high-risk behavior modeling. |
 | [soc-monitoring-credit-approval](https://github.com/Kalla-Bhanu/soc-monitoring-credit-approval) | Incident investigation: monitoring, sensitive-data risk, and SOC-style evidence collection for regulated workflows. |
 
