@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 310" role="img" aria-labelledby="title desc">
+  <title id="title">Security engineering workflow dashboard</title>
+  <desc id="desc">A dark dashboard showing the blue-team workflow from risk story to evidence package.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090909"/><stop offset="1" stop-color="#07110e"/></linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#10b981"/><stop offset=".55" stop-color="#2dd4bf"/><stop offset="1" stop-color="#fbbf24"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .mono{font-family:Consolas,Monaco,"Courier New",monospace}.ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+      .panel{fill:url(#bg);stroke:#262626;stroke-width:1.4}.node{fill:#080909;stroke:#2b4942;stroke-width:1.3}.node2{stroke:#3c3030}
+      .label{fill:#8f949c;font-size:11px;letter-spacing:.8px}.name{fill:#e9e9e9;font-size:14px;font-weight:800}.copy{fill:#9ba2aa;font-size:11.5px}.line{stroke:url(#flow);stroke-width:3;stroke-linecap:round;stroke-dasharray:10 12;animation:dash 2.7s linear infinite}
+      @keyframes dash{to{stroke-dashoffset:-90}}@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}.pulse{animation:pulse 2.4s ease-in-out infinite}
+    </style>
+    <path id="route" d="M104 184H228H352H476H600H724H848"/>
+  </defs>
+  <rect width="1000" height="310" fill="#050505"/>
+  <rect x="18" y="18" width="964" height="274" rx="18" class="panel"/>
+  <text class="mono label" x="48" y="58">$ ./defense-loop --explain</text>
+  <text class="ui" x="48" y="90" fill="#e7e7e7" font-size="23" font-weight="800">How I Turn Alerts Into Decisions</text>
+  <text class="ui copy" x="48" y="114">The work is less about staring at alerts and more about engineering the path from signal to confident action.</text>
+  <use href="#route" class="line" fill="none"/>
+  <g filter="url(#glow)">
+    <circle r="5" fill="#10d59a"><animateMotion dur="6s" begin="-.1s" repeatCount="indefinite"><mpath href="#route"/></animateMotion></circle>
+    <circle r="5" fill="#fb7185"><animateMotion dur="6s" begin="-4.5s" repeatCount="indefinite"><mpath href="#route"/></animateMotion></circle>
+    <circle r="5" fill="#fbbf24"><animateMotion dur="6s" begin="-3s" repeatCount="indefinite"><mpath href="#route"/></animateMotion></circle>
+  </g>
+  <g class="ui">
+    <g transform="translate(54 144)"><rect class="node" width="100" height="80" rx="12"/><text class="label mono" x="16" y="25">01</text><text class="name" x="16" y="48">Risk Story</text><text class="copy" x="16" y="65">behavior + asset</text></g>
+    <g transform="translate(178 144)"><rect class="node" width="100" height="80" rx="12"/><text class="label mono" x="16" y="25">02</text><text class="name" x="16" y="48">Telemetry</text><text class="copy" x="16" y="65">schema + joins</text></g>
+    <g transform="translate(302 144)"><rect class="node node2" width="100" height="80" rx="12"/><text class="label mono" x="16" y="25">03</text><text class="name" x="16" y="48">Detection</text><text class="copy" x="16" y="65">logic + tests</text></g>
+    <g transform="translate(426 144)"><rect class="node" width="100" height="80" rx="12"/><text class="label mono" x="16" y="25">04</text><text class="name" x="16" y="48">Enrich</text><text class="copy" x="16" y="65">identity + cloud</text></g>
+    <g transform="translate(550 144)"><rect class="node node2" width="100" height="80" rx="12"/><text class="label mono" x="16" y="25">05</text><text class="name" x="16" y="48">Tune</text><text class="copy" x="16" y="65">false positives</text></g>
+    <g transform="translate(674 144)"><rect class="node" width="100" height="80" rx="12"/><text class="label mono" x="16" y="25">06</text><text class="name" x="16" y="48">Runbook</text><text class="copy" x="16" y="65">triage path</text></g>
+    <g transform="translate(798 144)"><rect class="node" width="120" height="80" rx="12"/><text class="label mono" x="16" y="25">07</text><text class="name" x="16" y="48">Evidence</text><text class="copy" x="16" y="65">ready to act</text></g>
+  </g>
+  <g class="mono label"><circle class="pulse" cx="54" cy="260" r="5" fill="#10d59a" filter="url(#glow)"/><text x="68" y="264">feedback loops back into detection logic</text><circle class="pulse" cx="718" cy="260" r="5" fill="#fbbf24" filter="url(#glow)"/><text x="732" y="264">analyst speed is the output</text></g>
+</svg>
