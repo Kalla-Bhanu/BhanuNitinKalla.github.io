@@ -9,7 +9,7 @@
     <style>
       .mono{font-family:Consolas,Monaco,"Courier New",monospace}.ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
       .panel{fill:url(#bg);stroke:#262626;stroke-width:1.4}.card{fill:#080909;stroke:#2a2a2a;stroke-width:1.15}.hot{stroke:#24483f}
-      .label{fill:#8f949c;font-size:11px;letter-spacing:.8px}.name{fill:#ededed;font-size:17px;font-weight:800}.copy{fill:#9ba2aa;font-size:12.5px}.tag{fill:#0b1512;stroke:#24483f}.tagText{fill:#35d6ad;font-size:10px;font-weight:700}.bar{stroke-width:4;stroke-linecap:round;stroke-dasharray:210;stroke-dashoffset:210;animation:draw 5s ease-in-out infinite}
+      .label{fill:#8f949c;font-size:11px;letter-spacing:.8px}.name{fill:#ededed;font-size:17px;font-weight:800}.copy{fill:#9ba2aa;font-size:11.5px}.tag{fill:#0b1512;stroke:#24483f}.tagText{fill:#35d6ad;font-size:10px;font-weight:700}.bar{stroke-width:4;stroke-linecap:round;stroke-dasharray:210;stroke-dashoffset:210;animation:draw 5s ease-in-out infinite}
       @keyframes draw{0%{stroke-dashoffset:210}35%,78%{stroke-dashoffset:0}100%{stroke-dashoffset:-210}}
     </style>
   </defs>
@@ -19,13 +19,13 @@
   <text class="ui" x="48" y="91" fill="#e7e7e7" font-size="23" font-weight="800">Portfolio Labs Built Like Security Evidence</text>
   <text class="ui copy" x="48" y="116">Each repo is framed for fast review: detection logic, telemetry, validation, ATT&amp;CK mapping, and response notes.</text>
   <g transform="translate(48 146)">
-    <rect class="card hot" width="286" height="112" rx="12"/><text class="mono label" x="18" y="28">01 / DETECTION-AS-CODE</text><text class="ui name" x="18" y="55">Datadog Detection Engineering</text><text class="ui copy" x="18" y="78">Monitor-as-code, CI checks, tuning history, runbooks.</text><rect class="tag" x="18" y="90" width="84" height="20" rx="10"/><text class="ui tagText" x="31" y="104">PRIMARY</text><path class="bar" d="M140 100H262" stroke="url(#green)"/>
+    <rect class="card hot" width="286" height="112" rx="12"/><text class="mono label" x="18" y="28">01 / DETECTION-AS-CODE</text><text class="ui name" x="18" y="55">Datadog Detection Engineering</text><text class="ui copy" x="18" y="78">Monitor-as-code, CI checks, tuning.</text><rect class="tag" x="18" y="90" width="84" height="20" rx="10"/><text class="ui tagText" x="31" y="104">PRIMARY</text><path class="bar" d="M140 100H262" stroke="url(#green)"/>
   </g>
   <g transform="translate(358 146)">
-    <rect class="card" width="286" height="112" rx="12"/><text class="mono label" x="18" y="28">02 / CLOUD DEFENSE</text><text class="ui name" x="18" y="55">AWS Cloud Detection Lab</text><text class="ui copy" x="18" y="78">CloudTrail, IAM, STS, S3, KMS, evidence templates.</text><rect class="tag" x="18" y="90" width="74" height="20" rx="10"/><text class="ui tagText" x="31" y="104">CLOUD</text><path class="bar" d="M140 100H262" stroke="url(#green)" style="animation-delay:.5s"/>
+    <rect class="card" width="286" height="112" rx="12"/><text class="mono label" x="18" y="28">02 / CLOUD DEFENSE</text><text class="ui name" x="18" y="55">AWS Cloud Detection Lab</text><text class="ui copy" x="18" y="78">CloudTrail, IAM, STS, evidence.</text><rect class="tag" x="18" y="90" width="74" height="20" rx="10"/><text class="ui tagText" x="31" y="104">CLOUD</text><path class="bar" d="M140 100H262" stroke="url(#green)" style="animation-delay:.5s"/>
   </g>
   <g transform="translate(668 146)">
-    <rect class="card hot" width="286" height="112" rx="12"/><text class="mono label" x="18" y="28">03 / SAAS ATTACK CHAIN</text><text class="ui name" x="18" y="55">Identity-to-Data Security</text><text class="ui copy" x="18" y="78">Okta, Google Workspace, Atlas, Sigma-style logic.</text><rect class="tag" x="18" y="90" width="66" height="20" rx="10"/><text class="ui tagText" x="31" y="104">SAAS</text><path class="bar" d="M140 100H262" stroke="url(#red)" style="animation-delay:1s"/>
+    <rect class="card hot" width="286" height="112" rx="12"/><text class="mono label" x="18" y="28">03 / SAAS ATTACK CHAIN</text><text class="ui name" x="18" y="55">Identity-to-Data Security</text><text class="ui copy" x="18" y="78">Okta, Workspace, Atlas, Sigma logic.</text><rect class="tag" x="18" y="90" width="66" height="20" rx="10"/><text class="ui tagText" x="31" y="104">SAAS</text><path class="bar" d="M140 100H262" stroke="url(#red)" style="animation-delay:1s"/>
   </g>
   <g transform="translate(48 278)">
     <rect class="card" width="286" height="82" rx="12"/><text class="mono label" x="18" y="27">04 / SECURITY ML</text><text class="ui name" x="18" y="53">Threat Detection Analytics</text><path class="bar" d="M194 62H262" stroke="url(#amber)" style="animation-delay:1.4s"/>
