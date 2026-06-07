@@ -53,9 +53,9 @@ Outcome          Faster analyst decisions backed by clean evidence
 
 | Best first click | Why it matters |
 | --- | --- |
+| [Cloud Detection Engineering Platform](https://github.com/Kalla-Bhanu/Cloud-Detection-Engineering-Platform) | Capstone cloud detection lab connecting synthetic AWS events, detections-as-code, expected alerts, validation, runbooks, dashboard artifacts, and public-safe evidence. |
 | [Datadog Detection Engineering Lab](https://github.com/Kalla-Bhanu/Datadog-Detection-Engineering-Lab) | Detection-as-code discipline: monitor logic, validation harnesses, negative controls, CI checks, ATT&CK mapping, and runbooks. |
 | [CloudSec Detection Lab](https://github.com/Kalla-Bhanu/CloudSec-SOC-Detection-Lab) | AWS-first cloud defense with CloudTrail, IAM, STS, S3, EKS, KMS, Lambda replay, and evidence templates. |
-| [SaaS Attack Chain Detection Lab](https://github.com/Kalla-Bhanu/SaaS-Attack-Chain-Detection-Lab) | Identity-to-data attack chains across Okta, Google Workspace, and MongoDB Atlas with Sigma-style detections. |
 
 ---
 
@@ -63,6 +63,7 @@ Outcome          Faster analyst decisions backed by clean evidence
 
 | Lab | What it proves |
 | --- | --- |
+| [Cloud Detection Engineering Platform](https://github.com/Kalla-Bhanu/Cloud-Detection-Engineering-Platform) | Public-safe cloud detection engineering with synthetic AWS events, detections-as-code, expected alerts, validation, runbooks, dashboard artifacts, and CI checks. |
 | [Datadog Detection Engineering Lab](https://github.com/Kalla-Bhanu/Datadog-Detection-Engineering-Lab) | Monitor-as-code, validation, tuning, CI verification, ATT&CK mapping, and triage runbooks. |
 | [CloudSec Detection Lab](https://github.com/Kalla-Bhanu/CloudSec-SOC-Detection-Lab) | Cloud detection engineering with AWS telemetry replay, identity/cloud context, and analyst-ready evidence. |
 | [SaaS Attack Chain Detection Lab](https://github.com/Kalla-Bhanu/SaaS-Attack-Chain-Detection-Lab) | SaaS threat modeling with Okta, Google Workspace, Atlas activity, Sigma-style rules, and public-safe artifacts. |
@@ -126,8 +127,8 @@ Outcome          Faster analyst decisions backed by clean evidence
 
 ```txt
 roadmap.status = "active"
-next.signal    = "richer synthetic telemetry for cloud and identity attack paths"
-next.quality   = "better validation harnesses, negative controls, and tuning history"
+current.signal = "Cloud Detection Engineering Platform"
+next.quality   = "richer synthetic telemetry, validation harnesses, negative controls, and tuning history"
 next.story     = "cleaner incident narratives that connect alerts to analyst decisions"
 ```
 
